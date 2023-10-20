@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botonera a{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 400;
+    color: black;
+}
+
+header img{
+    width: 100%;
+}
+
+/* inicia intro */
+.intro{
+    background-color: white;
+    transform: translateY(-100px);
+    padding: 30px 0;
+    box-shadow: -1px 3px 25px -4px rgba(122,115,122,1);
+}
+    .intro figure{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .intro h2{
+        font-weight: 700;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+    .intro a{
+        color: #e74c3c;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+@media (width < 769px){
+    .intro{
+        transform: none;
+        margin-top: 30px;
+        box-shadow: none;
+    }
+}
+
+/* intro texto */
+
+.intro-text h3{
+    color: #e74c3c;
+    font-weight:700;
+    font-size: 2.4em;
+    /* text-transform: uppercase */
+}
+    .intro-text p{
+        font-size: 1.4em;
+        line-height:1.5em;
+        font-weight: 400;
+    }
+    
+/* slogan */
+.slogan{
+    background-color: #e74c3c;
+}
+    .slogan .btn-gral{
+        background-color: white;
+        color:  #e74c3c;
+        text-align: center;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 2em;
+        box-shadow: -1px 3px 25px -4px rgb(49, 49, 49);
+    }
+    .slogan p{
+        padding-bottom: 40px;
+    }
+
+/* sponsors */
+.sponsors  p{
+    font-size: 1.4em;
+    line-height:1.5em;
+    font-weight: 400;
+}
+
+/* faqs */
+.accordion p{
+   
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+    .accordion p:before{
+        content: url(../img/icons/icon-plus.png);
+        margin-right: 10px;
+       
+    }
+    .sponsors img{
+        width: 100%;
+    }
+
+/* call to action  */
+.call-to-action{
+    background-color: #e74c3c;
+}
+ .call-to-action h3:first-child{
+    font-size: 1.8em;
+ }
+ /* .call-to-action h3:last-child{
+    font-size: 5em;
+    font-weight: 700;
+ } */
+ .call-to-action .box-tabs{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-transform: uppercase;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: -1px 3px 25px -4px rgb(49, 49, 49);
+ }
+
+ .call-to-action .box-tabs .active{
+    color: black;
+    font-weight: 700;
+ }
+ .call-to-action div p{
+    text-align: center;
+    width: 50%;
+    margin-left: 280px; 
+ }
+
+ @media (width < 769px){
+ .call-to-action .box-tabs h4{ 
+        font-size: 0.8em; 
+}
+.call-to-action div p{
+    margin-left: 0;
+    
+}
+ }
+ /* ARREGLAR^MARGIN CALL TO ACTION!! */
+ /* rules */
+ .rules div{
+    padding: 60px;
+
+ } 
+ .rules h4{
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .rules p{
+    font-size: 1.4em;
+    line-height:1.5em;
+    font-weight: 400;
+ }
+.ourproducts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 239, 239);
+}
+
+ .ourproducts h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5em;
+ }
+ .ourproducts p{
+    font-size: 1.4em;
+    line-height:1.5em;
+    font-weight: 400;
+    text-align: center;
+ }
+ /* cubos */
+ .cubos{
+    box-shadow: -1px 3px 25px -4px rgba(122,115,122,1);
+ }
+
+ /* GETIN */
+ .getin{
+    background-color: #e74c3c;
+ }
+ .getin h4{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+ }
+ .getin p{
+ font-size: 0.9em;
+ padding-bottom: 30px;
+ 
+ 
+ }
+ .getin h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    
+
+ }
+
+/* properly */
+/* .properly{
+    background-color: #e74c3c;
+}
+ .properly p{
+    text-align: end;
+    font-size: 1em;
+ }
+ .properly p:after{
+    content: url(../img/icons/icon-plus.png);
+} */
+
+/* get started */
+.getStarted{
+    padding-top: 80px;
+}
+.getStarted h4{
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+/* steps */
+.step{
+   flex-direction: row;
+   justify-content: center;
+    margin: 30px;
+}  
+ .step div{ 
+    align-items: center;
+    width: 25%;  
+   
+
+}  
+.step img{
+   align-items: center;
+   padding: 25px; 
+   width: 250px;
+} 
+.step h5{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+.step p{
+    text-align: center;
+    /* text-align: center; */
+    font-size: 1.4em;
+    line-height:1.5em;
+    font-weight: 400;
+}
+
+.textRed{
+ color: #e74c3c;
+}
+.fitnessText{
+    font-size: 5em;
+    font-weight: 700;
+}
+/* footer */
+.footerGym{
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerGym li{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.footerGym li a{
+   padding: 15px;
+}
+ footer p{
+    text-align: center;
+    font-size: 1em;
+ }
+
+
